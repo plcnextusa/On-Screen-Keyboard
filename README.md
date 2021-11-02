@@ -10,6 +10,7 @@ SETUP
 7. Add an instance of the "KeyboardsHandler" Function Block to a Program.  This Program should be scheduled in a Task with an Interval that is twice as fast as the eHMI Data        poll interval.
 8. Assign an External variable to the Function Block.
 
+
 NUMERIC KEYPAD USE
 1. Use a "Text" object, not a "Text Input" object, in your HMI where a numeric value entry field is needed.
 2. Set the "Stroke - Line width" to 1 to give this object an Input Box appearance.
@@ -26,6 +27,7 @@ NUMERIC KEYPAD USE
     f. For the "Signed" parameter, change the "Source Type" to "Constant" and set it to "True" to allow the operator to enter a negative number or "False" if only a positive            number should be entered.
     g. For the "Output" parameter, select the same variable you assigned to the "Text" dynamic.    
 5. Repeat to add as many input fields as needed for your application.
+
 
 KEYBOARD USE
 1. Use a "Text" object, not a "Text Input" object, in your HMI where a string entry field is needed.
