@@ -1,3 +1,5 @@
+A new version is avaliable on the PLCnext Store.
+
 # On-Screen-Keyboard
 
 SETUP
@@ -23,8 +25,8 @@ NUMERIC KEYPAD USE
     b. For "Page" select "Keypad".    
     c. Optionally, check the box to "Dim background".
     d. For the "KB" parameter, select the variable you assigned to the "KeyboardsHandler" Function Block.
-    e. For the "Decimal" parameter, change the "Source Type" to "Constant" and set it to "True" to allow the operator to enter a decimal number or "False" if only a whole number        should be entered.
-    f. For the "Signed" parameter, change the "Source Type" to "Constant" and set it to "True" to allow the operator to enter a negative number or "False" if only a positive            number should be entered.
+    e. For the "Decimal" parameter, change the "Source Type" to "Constant" and set it to "True" to allow the operator to enter a decimal number or "False" if only a whole number should be entered.
+    f. For the "Signed" parameter, change the "Source Type" to "Constant" and set it to "True" to allow the operator to enter a negative number or "False" if only a positive number should be entered.
     g. For the "Output" parameter, select the same variable you assigned to the "Text" dynamic.    
 5. Repeat to add as many input fields as needed for your application.
 
